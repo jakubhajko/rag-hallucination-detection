@@ -1,0 +1,12 @@
+[project]
+name = "rag-hallucination-detection"
+version = "0.1.0"
+description = "Geometric hallucination detection for RAG/LLM outputs with cross-dataset evaluation and robustness analysis."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=4.7.0",
+    "matplotlib>=3.10.8",
+    "sentence-transformers>=5.2.3",
+    "torch>=2.10.0",
+]
