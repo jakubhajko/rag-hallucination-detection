@@ -1,0 +1,15 @@
+# Default configuration for the SGI Evaluation Pipeline
+experiment_name: "medhallu_baseline"
+
+dataset:
+  name: "MedHallu"
+  n_samples: 5000
+  hallucination_prob: 0.5
+
+model:
+  # Supported: mpnet, minilm, bge, e5, gte
+  key: "bge" 
+
+pipeline:
+  # Defines how predictions are made. Options: "youden" or "f1"
+  threshold_method: "youden"

@@ -1,0 +1,1 @@
+# Marks sgi_eval as a Python package.
